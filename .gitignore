@@ -1,0 +1,23 @@
+*.sch~
+*.sym~
+*.sym#
+*.pcb-
+*.pcb.bak*
+*-
+*.sch~.renum
+*.backup
+*.core
+.*.swp
+*~
+.xlsx#
+.~lock.*.xlsx#
+.ods#
+*.swp
+// for yosys
+*.asc
+*.bin
+*.blif
+*.json
+#*
+*.ods#
+*.new.pcb

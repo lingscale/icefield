@@ -1,0 +1,64 @@
+v 20130925 2
+P 200 0 200 200 1 0 0
+{
+T 250 100 5 8 1 1 0 2 1
+pinnumber=1
+T 150 100 5 8 0 1 0 8 1
+pinseq=1
+T 200 250 9 8 1 1 0 3 1
+pinlabel=\_ST\_
+T 200 400 5 8 0 1 0 3 1
+pintype=in
+}
+P 600 0 600 200 1 0 0
+{
+T 650 100 5 8 1 1 0 2 1
+pinnumber=2
+T 550 100 5 8 0 1 0 8 1
+pinseq=2
+T 600 250 9 8 1 1 0 3 1
+pinlabel=GND
+T 600 400 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 600 800 600 600 1 0 0
+{
+T 650 700 5 8 1 1 0 0 1
+pinnumber=3
+T 550 700 5 8 0 1 0 6 1
+pinseq=3
+T 600 550 9 8 1 1 0 5 1
+pinlabel=OUT
+T 600 400 5 8 0 1 0 5 1
+pintype=out
+}
+P 200 800 200 600 1 0 0
+{
+T 250 700 5 8 1 1 0 0 1
+pinnumber=4
+T 150 700 5 8 0 1 0 6 1
+pinseq=4
+T 200 550 9 8 1 1 0 5 1
+pinlabel=Vcc
+T 200 400 5 8 0 1 0 5 1
+pintype=pwr
+}
+T 900 500 8 10 1 1 0 0 1
+refdes=Y?
+T 50 1100 5 10 0 0 0 0 1
+device=SG-310
+T 50 1300 5 10 0 0 0 0 1
+footprint=EPSON_SG-310_OSCSC4P220_320X250X120L70X90N
+T 50 1500 5 10 0 0 0 0 1
+author=胡波
+T 50 1700 5 10 0 0 0 0 1
+documentation=http://www.epson.com.cn/
+T 50 1900 5 10 0 0 0 0 1
+description=SPXO
+T 50 2100 5 10 0 0 0 0 1
+numslots=0
+T 50 2300 5 10 0 0 0 0 1
+dist-license=BSD
+T 50 2500 5 10 0 0 0 0 1
+use-license=BSD
+B 0 200 800 400 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
